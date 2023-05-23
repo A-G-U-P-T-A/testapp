@@ -1,8 +1,6 @@
--- Create the database schema
 CREATE DATABASE phonebook;
 USE phonebook;
 
--- Create the contacts table
 CREATE TABLE contacts (
   id INT AUTO_INCREMENT PRIMARY KEY,
   first_name VARCHAR(50) NOT NULL,
